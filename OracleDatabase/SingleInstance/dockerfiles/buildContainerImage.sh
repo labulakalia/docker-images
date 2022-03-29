@@ -111,7 +111,7 @@ STANDARD=0
 EXPRESS=0
 # Obtaining the latest version to build
 VERSION="$(ls -1rd *.*.* | sed -n 1p)"
-SKIPMD5=0
+SKIPMD5=1
 declare -a BUILD_OPTS
 MIN_DOCKER_VERSION="17.09"
 MIN_PODMAN_VERSION="1.6.0"
